@@ -27,7 +27,7 @@ function Saved() {
               />
             ) : (
               <img 
-                src="No image.jpg" 
+                src="https://placehold.co/600x400" 
                 className="card-img-top" 
                 alt="No Images" 
               />
