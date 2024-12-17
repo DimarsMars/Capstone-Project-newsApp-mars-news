@@ -76,12 +76,12 @@ const Indonesia = () => {
           </div>
           <div className="d-flex justify-content-center align-items-center mt-4 mb-5">
             <button
-              className="btn btn-dark btn-pad"
+              className="btn btn-dark me-2 btn-pad"
               onClick={() => handlePageChange(page - 1)}
               disabled={page === 1}
               >Previous</button>
             <button
-              className="btn btn-dark btn-pad"
+              className="btn btn-dark ms-2 btn-pad"
               onClick={() => handlePageChange(page + 1)}
               >Next</button>
           </div>
