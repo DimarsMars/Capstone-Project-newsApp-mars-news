@@ -11,9 +11,9 @@ function Saved() {
   };
 
   return (
-    <div>
+    <div className='' style={{ minHeight: "72vh"}}>
       <div className="container text-center mt-5 mb-5">
-        <h2>Saved News</h2>
+        <h2 className="fw-bold">Saved News</h2>
       </div>
       <div className="d-flex flex-wrap gap-1 justify-content-center container" style={{ marginBottom: "90px" }}>
         {savedNews.map((news, index) => (
@@ -27,7 +27,7 @@ function Saved() {
               />
             ) : (
               <img 
-                src="https://placehold.co/600x400" 
+                src="/No Image MarsNews.png" 
                 className="card-img-top" 
                 alt="No Images" 
               />

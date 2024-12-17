@@ -34,8 +34,8 @@ function Search() {
 
     return (
     <div>
-        <div className="container mt-5 mb-5">
-            <h2>Search Results for: {query}</h2>
+        <div className="container text-center mt-5 mb-5">
+            <h2 className="fw-bold">{query} News</h2>
         </div>
 
       {/* Menampilkan Status */}
@@ -48,7 +48,7 @@ function Search() {
 
       {/* Menampilkan News */}
       {!isLoading && !isError && news?.length > 0 && (
-        <div className="d-flex flex-wrap gap-3 justify-content-start container mt-4">
+        <div className="d-flex flex-wrap gap-3 justify-content-center container mt-4">
           {news.map((news, index) => (
             <div className="card blur-container mt-3 mb-3 d-flex hover-card" style={{ width: "25rem" }} key={index}>
               <p className="" style={{ fontSize: "13px" }}>
@@ -61,7 +61,7 @@ function Search() {
                   alt="News"
                 />
               ) : (
-                <img src="https://placehold.co/600x400" className="card-img-top" alt="No Images" />
+                <img src="/No Image MarsNews.png" className="card-img-top" alt="No Images" />
               )}
               <div className="card-body d-flex flex-column" style={{ height: "fit-content" }}>
                 <h4 className="card-text">{news.headline.main}</h4>

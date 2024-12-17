@@ -37,7 +37,7 @@ const Programming = () => {
     return (
         <div className="">
           <div className="container text-center mt-5 mb-5">
-            <h2>Programming</h2>
+            <h2 className="fw-bold">Programming</h2>
           </div>
           <div className="d-flex flex-wrap gap-1 justify-content-start container">
             {news.map((news, index) => (
@@ -52,7 +52,7 @@ const Programming = () => {
                         />
                       ) : (
                         <img 
-                          src="https://placehold.co/600x400" 
+                          src="/No Image MarsNews.png" 
                           className="card-img-top" 
                           alt="No Images" 
                         />
