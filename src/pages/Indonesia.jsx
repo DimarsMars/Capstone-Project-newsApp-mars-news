@@ -38,7 +38,7 @@ const Indonesia = () => {
           <div className="container text-center mt-5 mb-5">
             <h2>Indonesia</h2>
           </div>
-          <div className="d-flex flex-wrap gap-1 justify-content-center container">
+          <div className="d-flex flex-wrap gap-1 justify-content-start container">
             {news.map((news, index) => (
 
                 <div className="card blur-container container mt-3 mb-3 d-flex hover-card" style={{width: "25rem"}} key={index}>
