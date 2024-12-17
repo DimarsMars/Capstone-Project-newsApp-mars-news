@@ -86,7 +86,9 @@ function Search() {
 
       {/* Jika Tidak Ada Hasil */}
       {!isLoading && !isError && news?.length === 0 && (
-        <p className="text-center mt-4">No results found for "{query}".</p>
+        <div>
+          <p className="text-center mt-4 fw-bold" style={{ height: "60vh" }}>No results found for "{query}".</p>
+        </div>
       )}
 
       {/* Pagination */}
