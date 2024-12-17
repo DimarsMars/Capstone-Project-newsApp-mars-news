@@ -18,7 +18,7 @@ function Header() {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-1">
             <div className="container">
             <nav className="navbar navbar-dark bg-dark p-1">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand">
                 <span className="text-light fw-bold" style={{ fontSize: '25px' }}>Mars</span>
                 <span className="text-danger fw-bold" style={{ fontSize: '25px' }}>.</span>
                 <span className="text-danger fw-bold" style={{ fontSize: '25px' }}>News</span>
