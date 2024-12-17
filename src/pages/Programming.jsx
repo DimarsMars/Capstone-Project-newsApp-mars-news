@@ -9,7 +9,7 @@ const Programming = () => {
   const dispatch = useDispatch();
   const [page, setPage] = useState(1);
   const savedNews = useSelector((state) => state.news.savedNews);
-  const { data: news, isLoading, error } = useNewsApi("programming", page);
+  const { data: news, isLoading, error } = useNewsApi("programmer", page);
 
   if (isLoading) return <div className="d-flex justify-content-center align-items-center" style={{ height: "100vh" }}>
       <div className="spinner-border text-primary" role="status">
