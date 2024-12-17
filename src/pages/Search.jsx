@@ -51,7 +51,7 @@ function Search() {
         <div className="d-flex flex-wrap gap-3 justify-content-center container mt-4">
           {news.map((news, index) => (
             <div className="card blur-container mt-3 mb-3 d-flex hover-card" style={{ width: "25rem" }} key={index}>
-              <p className="" style={{ fontSize: "13px" }}>
+              <p className="fw-bold" style={{ fontSize: "15px" }}>
                 {news.source || "Unknown Source"}
               </p>
               {news.multimedia?.[0]?.url ? (

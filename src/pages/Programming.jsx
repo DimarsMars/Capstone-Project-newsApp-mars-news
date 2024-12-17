@@ -43,7 +43,7 @@ const Programming = () => {
             {news.map((news, index) => (
 
                 <div className="card blur-container container mt-3 mb-3 d-flex hover-card" style={{width: "25rem"}} key={index}>
-                      <p className="" style={{fontSize: "13px"}}>{news.source}</p>
+                      <p className="fw-bold" style={{fontSize: "15px"}}>{news.source}</p>
                       {news.multimedia?.[0]?.url ? (
                         <img 
                           src={`http://static01.nyt.com/${news.multimedia[0].url}`} 
