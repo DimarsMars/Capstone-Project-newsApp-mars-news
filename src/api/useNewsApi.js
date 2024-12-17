@@ -18,6 +18,5 @@ export function useNewsApi(query, page = 1) {
       return news.data.response.docs;
     },
     staleTime: 1000 * 60 * 5, // Data dianggap fresh selma 5 menit
-    cacheTime: 1000 * 60 * 30, // Data disimpan dalam cache selama 30 menit
   });
 }
