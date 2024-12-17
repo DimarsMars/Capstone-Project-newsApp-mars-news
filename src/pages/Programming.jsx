@@ -75,7 +75,7 @@ const Programming = () => {
 
             ))}
           </div>
-          <div className="d-flex justify-content-center align-items-center mt-4 mb-5">
+          <div className="d-flex justify-content-center align-items-center" style={{marginBottom: "90px", marginTop: "30px"}}>
             <button
               className="btn btn-dark me-2 btn-pad"
               onClick={() => handlePageChange(page - 1)}

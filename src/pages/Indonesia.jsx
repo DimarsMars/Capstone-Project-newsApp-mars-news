@@ -74,7 +74,7 @@ const Indonesia = () => {
 
             ))}
           </div>
-          <div className="d-flex justify-content-center align-items-center " style={{marginBottom: "120px", marginTop: "30px"}}>
+          <div className="d-flex justify-content-center align-items-center " style={{marginBottom: "90px", marginTop: "30px"}}>
             <button
               className="btn btn-dark me-2 btn-pad"
               onClick={() => handlePageChange(page - 1)}
