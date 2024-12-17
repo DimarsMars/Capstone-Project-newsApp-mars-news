@@ -22,4 +22,6 @@ body{
 
 .btn-pad {
   padding: 8px 18px;
+  position: relative;
+  z-index: 10;
 }
